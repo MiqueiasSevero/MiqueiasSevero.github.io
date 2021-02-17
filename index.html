@@ -1,10 +1,15 @@
 <!doctype html>
+<!-- By sscomunica -  -->
 <html lang="pt-br">
   <head>
     <!-- Required meta tags -->
     <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
     	
-
+        *, html, body {
+            margin:0;
+            padding:0;
+            }
 		
 		.imgfundo {
 			width: 100vw;
@@ -15,50 +20,56 @@
 		}
 		#infSite{
     		margin-top: 15vh;
-    		margin-left: 0;
-    		margin-right: 0;
-    		width: 100%;
-    		height: auto;
+        margin-bottom: 15vh;
+        margin-left: 30rem;
+    		margin-right: 30rem;
+    		width: auto;
+    	  height: auto;
     		background-color: #fffafa;
-    		opacity: 0.8;
+    		opacity: 0.9;
     		position: absolute;
     		padding: 0;
-    		
+        box-shadow: -2px 10px 5px -5px rgba(0,0,0,0.17);
+    		border-radius: 15px;
     	}
-    	#painelTrans{
-    		width: 100vw;
-    		height: 100vh;
-    		margin: 0;
-    		background-color: #ffffff; 
-    		opacity: 0.3;
-    		position: absolute;
-    		padding: 0;
-    	}
+    	
     	body {
     		padding: 0;
     	}
     	#imgLogo{
-    		width: 30rem;
+    		width: 15rem;
+        margin-top: 2rem;
     		margin-left: auto;
     		margin-right: auto;
     		display: block;
     		z-index: 1;
+        filter: brightness(130%);
+
     		
     	}
     	#textInfoClite {
     		text-align: center;
     		margin-top: 10vh;
-    		font-family: 
-    		font-size: 25px;
+    		font-family: 'Open Sans', sans-serif;
+    		font-size: 1rem;
     	}
+      .socialMedia {
+       
+        width: 12rem;
+        margin-left: auto;
+        margin-right: auto;
+       
+        
+      } 
+       .socialMedia img{
+          width: 2rem;
+          height: 2rem;
+        }
+
 
         /* media queries*/
 
 
-/*body {
-  background-image: url("img/1336px---768px.png");
-   background-repeat: repeat-y;
-}*/
 
 
 @media  (max-width: 1920px) and (min-width:1337px)  {
@@ -72,6 +83,7 @@
  body {
    background-image: url("img/1336px---768px.png");
    background-repeat: repeat-y;
+    background-size: 100vw;
   }
 }
 
@@ -87,6 +99,43 @@
    background-image: url("img/540px-720px.png");
    background-repeat: repeat-y;
   }
+  #infSite{
+        margin-top: 5vh;
+        margin-bottom: 15vh;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        width: auto;
+        height: 28rem;
+        background-color: #fffafa;
+        opacity: 0.9;
+        position: absolute;
+        padding: 0;
+        box-shadow: -2px 10px 5px -5px rgba(0,0,0,0.17);
+        border-radius: 15px;
+      }
+        
+      #imgLogo{
+        width: 13rem;
+        margin-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        z-index: 1;
+        filter: brightness(130%);
+
+        
+      }
+      .socialMedia {
+        margin-top: -1.5rem;
+        margin-bottom: 0;
+        width: 12rem;
+        height: 6rem;
+        margin-left: auto;
+        margin-right: auto;
+       
+        
+      } 
+
 }
 
 
@@ -107,11 +156,7 @@
   <body>
 		 	
 
-		 	<div class="" id="painelTrans">
-		 
-
-
-		 	</div>
+		
 			<div class="row" id="infSite">
 
 							
@@ -126,11 +171,24 @@
 										<img src="img/logo.png" class="img-fluid rounded mx-auto" id="imgLogo" alt="...">
 								</h1>
 								
-								<p class="text-center">Olá, <strong >Cliente</strong> </p>	
-								<p class="text-center"><strong>Estamos em manutenção para te oferecer um melhor serviço. </strong> </p>	
-								<p class="text-center">Você pode entrar em contato conosco <strong >Clicando</strong> em nossas redes sociais. </p>	
+								<p class="text-center " id="textInfoClite">Olá, <strong >Cliente</strong><br><br>
+							Estamos em   <strong>manutenção para te oferecer</strong> um melhor  <strong>serviço</strong>  <br> <br>
+								<strong >Você</strong> pode entrar em contato conosco <strong >clicando</strong> em nossas <strong >redes sociais</strong> </p><br><br>	
 							
-									
+									<div class="socialMedia">
+                      
+                        <a class="btn btn-block btn-social" href="https://www.facebook.com/duoestetiqueoficial" alt="link facebook">
+                            <img src="img/face.png">
+                        </a> 
+                        <a class="btn btn-block btn-social" href="https://api.whatsapp.com/send?phone=558597340666&text=Ol%C3%A1.%20Vim%20pelo%20insta%20da%20Duo%20Esth%C3%A9tique%20%E2%99%A1" alt="link facebook">
+                            <img src="img/zap.png">
+                        </a>
+                         <a class="btn btn-block btn-social" href="https://www.instagram.com/duo.esthetique/" alt="link facebook">
+                            <img src="img/insta.png">
+                        </a>  
+                              
+                  </div>
+                  <br>  <br>
 							</div>
 							<div class="col col-md col-lg ">
 
