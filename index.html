@@ -1,295 +1,79 @@
-<!doctype html>
-<!-- By sscomunica -  -->
+<!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <!-- Required meta tags -->
-    <style type="text/css">
-      @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-    	
-        *, html, body {
-            margin:0;
-            padding:0;
-            }
-		
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Portifolio</title>
+</head>
+<body>
+   <header class="topo">
+            <img id="imgPerfil" src="img/perfil.png"  alt="">
+            <h1>Miqueias Severo da Silva</h1>
+            <h5>Desenvolvedor FullSatack - Analista de Suporte Jr</h5>
+            <div class="botoestopo">
+               <a href="https://www.linkedin.com/in/miqu%C3%A9ias-severo-922847123/" target="_blank"><button class="linkedin">Linkedin</button></a>
+               <a href="https://github.com/MiqueiasSevero" target="_blank"><button class="github">Github</button></a>
+            </div>
 
-		#infSite{
+   </header>
+   <main class="corpo">
+        <section class="carreira">
+          <h1> <img id="imgTopico" src="./img/carreira.svg" alt=""> Carreira </h1>
+               <h4>Analista Suporte <br>CSA JR</h4>
+               <h5>Assaí Atacadista</h5>
+               <p>fev. de 2021 – o momento<br>
+               Localidade Taboão da Serra, São Paulo, Brasil</p>
+               <hr>
 
+               <h4>Assistente de TI</h4>
+               <h5>Assaí Atacadista</h5>
+               <p>fev. de 2017 – fev. de 2021<br>
+               Localidade Taboão da Serra, São Paulo, Brasil</p>
+               <hr> 
+               <h4>Operador de Loja</h4>
+               <h5>Assaí Atacadista</h5>
+               <p>nov. de 2015 – fev. de 2017<br>
+                    Localidade Taboão da Serra, São Paulo, Brasil</p>
+               
+                  
+        </section>
+        <section class="academico">
+          <h1> <img id="imgTopico" src="./img/academico.svg" alt=""> Academico </h1>
+               <h4>Analise de Desenvolvimento de<br> Sistemas</h4>
+               <h5>Fecaf</h5>
+               <p>2020 a 2023<br>
+               Localidade Taboão da Serra, São Paulo, Brasil</p>
+               <hr>
 
-        display: inline-block;
-        justify-content: center;
-        align-items: center;
-        width: 30%;
-        height: auto;
-        margin-left:35%;
-        margin-right:35%;
-        margin-top: 15vh;
-        margin-bottom: auto;
-        padding: 20px;
-    		background-color: #fffafa;
-    		opacity: 0.9;
-    		padding: auto;
-        box-shadow: -2px 10px 5px -5px rgba(0,0,0,0.17);
-    		border-radius: 15px;
-        text-align: center;
-        
-    	}
-    	
-    	body {
-    		padding: 0;
-    	}
-    	#imgLogo{
-    		width: 15rem;
-        margin-top: 2rem;
-    		margin-left: auto;
-    		margin-right: auto;
-    		display: block;
-    		z-index: 1;
-        filter: brightness(130%);
-
-    		
-    	}
-    	#textInfoClite {
-    		text-align: center;
-    		margin-top: 10vh;
-    		font-family: 'Open Sans', sans-serif;
-    		font-size: 1rem;
-    	}
-      .socialMedia {
-       
-        width: 12rem;
-        margin-left: auto;
-        margin-right: auto;
-        position: relative;
-        
-       
-        
-      } 
-       .socialMedia img{
-          width: 2rem;
-          height: 2rem;
-        }
-
-
-        /* media queries*/
+               <h4>Técnico em Programação Web</h4>
+               <h5>Senac</h5>
+               <p>2018 a 2020<br>
+               Localidade Taboão da Serra, São Paulo, Brasil</p>
+               <hr> 
+               <h4>Tecnico em informática </h4>
+               <h5>Etec de Embu</h5>
+               <p>2015 a 2016<br>
+               Localidade Taboão da Serra, São Paulo, Brasil</p>
+        </section>
+        <section class="habilidades">
+          <h1> <img id="imgTopico" src="./img/habilidades.svg" alt=""> Habilidades </h1>
+          <h4><img id="imgHabilidades" src="./img/PHP.png" alt=""><br>Programação PHP</h4>
+          <h4><img id="imgHabilidades" src="./img/html.png" alt=""><br>Programação HTML5</h4>
+          <h4><img id="imgHabilidades" src="./img/css3.jpg" alt=""><br>Programação CSS3</h4>
+          <h4><img id="imgHabilidades" src="./img/MySQL.png" alt=""><br>Programação MYSQL</h4>
+          <h4><img id="imgHabilidades" src="./img/python.png" alt=""><br>Programação Python</h4>
+          
+        </section>
 
 
+   </main>
+   <footer class="rodape">
+        <div class="contatos">
+             
 
-
-@media  (max-width: 1920px) and (min-width:1338px)  {
- body {
-   background-image: url("img/1920px-1080.png");
-   background-repeat: repeat-y;
-    background-repeat: repeat-x;
-  }
-}
-@media  (max-width: 1337px) and (min-width:1025px)  {
- body {
-   background-image: url("img/1336px---768px.png");
-   background-repeat: repeat-y;
-    background-size: 100vw;
-  }
-  #infSite{
-
-
-        display: inline-block;
-        justify-content: center;
-        align-items: center;
-        width: 60%;
-        height: auto;
-        margin-left:20%;
-        margin-right:20%;
-        margin-top: 15vh;
-        margin-bottom: auto;
-        padding: 15px;
-        background-color: #fffafa;
-        opacity: 0.9;
-        padding: auto;
-        box-shadow: -2px 10px 5px -5px rgba(0,0,0,0.17);
-        border-radius: 15px;
-        text-align: center;
-        
-      }
-}
-
-@media  (max-width: 1024px) and (min-width:900px)  {
-  body {
-   background-image: url("img/1024-720p.png");
-   background-repeat: repeat-y;
-  }
-   #infSite{
-
-
-        display: inline-block;
-        justify-content: center;
-        align-items: center;
-        width: 40%;
-        height: auto;
-        margin-left:30%;
-        margin-right:30%;
-        margin-top: 15vh;
-        margin-bottom: auto;
-        padding: 15px;
-        background-color: #fffafa;
-        opacity: 0.9;
-        padding: auto;
-        box-shadow: -2px 10px 5px -5px rgba(0,0,0,0.17);
-        border-radius: 15px;
-        text-align: center;
-        
-      }
-}
-@media  (max-width: 899px) and (min-width:541px)  {
-     body {
-   background-image: url("img/1024-720p.png");
-   background-repeat: repeat-y;
-  }
-   #infSite{
-
-
-        display: inline-block;
-        justify-content: center;
-        align-items: center;
-        width: 60%;
-        height: auto;
-        margin-left:20%;
-        margin-right:20%;
-        margin-top: 15vh;
-        margin-bottom: 15vh;
-        padding: 15px;
-        background-color: #fffafa;
-        opacity: 0.9;
-        padding: auto;
-        box-shadow: -2px 10px 5px -5px rgba(0,0,0,0.17);
-        border-radius: 15px;
-        text-align: center;
-        
-      }
-
-
-}
-@media (max-width: 540px){
-  body {
-   background-image: url("img/540px-720px.png");
-   background-repeat: repeat-y;
-  }
-  #infSite{
-         margin-top: 1rem;
-        margin-bottom: 2rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
-        width: auto;
-        height: auto;
-        background-color: #fffafa;
-        opacity: 0.9;
-        position: absolute;
-        padding: 0;
-        box-shadow: -2px 10px 5px -5px rgba(0,0,0,0.17);
-        border-radius: 15px; 
-      }
-        
-      #imgLogo{
-        width: 13rem;
-        margin-top: 2rem;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-        z-index: 1;
-        filter: brightness(130%);
-
-        
-      }
-      .socialMedia {
-        margin-top: -1.5rem;
-        margin-bottom: 0;
-        width: 12rem;
-        height: 6rem;
-        margin-left: auto;
-        margin-right: auto;
-       
-        
-      } 
-        #textInfoClite {
-        text-align: center;
-        margin-top: 10vh;
-        font-family: 'Open Sans', sans-serif;
-        font-size: 1rem;
-
-      }
-
-
-}
-
-
-    	
-
-
-    </style>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-   
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-
-
-    <title>Duo Stetic</title>
-  </head>
-  <body>
-		 	
-
-		
-
-							
-						
-
-						
-							<div  id="infSite" >
-								<h1>
-									
-										<img src="img/logo.png" class="img-fluid rounded mx-auto" id="imgLogo" alt="...">
-								</h1>
-								
-								<p class="text-center " id="textInfoClite">Olá, <strong >Cliente</strong><br><br>
-						    	Estamos em   <strong>manutenção para te oferecer</strong><br> um melhor  <strong>serviço</strong>  <br> <br>
-								<strong >Você</strong> pode entrar em contato conosco <strong >clicando</strong> em<br> nossas <strong >redes sociais</strong> </p><br><br>	
-							
-									<div class="socialMedia">
-                      
-                        <a class="btn btn-block btn-social" href="https://www.facebook.com/duoestetiqueoficial" alt="link facebook" target="_blank">
-                            <img src="img/face.png">
-                        </a> 
-                        <a class="btn btn-block btn-social" href="https://api.whatsapp.com/send?phone=558597340666&text=Ol%C3%A1.%20Vim%20pelo%20insta%20da%20Duo%20Esth%C3%A9tique%20%E2%99%A1" target="_blank" alt="link facebook">
-                            <img src="img/zap.png">
-                        </a>
-                         <a class="btn btn-block btn-social" href="https://www.instagram.com/duo.esthetique/" target="_blank" alt="link facebook">
-                            <img src="img/insta.png">
-                        </a>  
-                              
-                  </div>
-                  <br>
-              </div>
-            
-							
-							
-								
-						
-
-				
-
-
- 
-
-
-
-
-
-
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
+        </div>
+   </footer>
+</body>
 </html>
