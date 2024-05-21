@@ -28,7 +28,16 @@
     height: 4rem;
   }
 
-  .habilidades h4 {
-    margin: 1rem;
-  }
+  .habilidades {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.habilidades h4 {
+  flex-basis: 200px; /* Define a largura mínima para os itens */
+  text-align: center;
+  margin: 10px; /* Espaçamento entre os itens */
+}
 }
