@@ -1,3 +1,152 @@
+.topo {
+ width: auto;
+ height: auto;
+ background-color: #800080;
+ opacity: 0.8;
+ box-shadow: 3px 3px 19px 5px rgba(0,0,0,0.4);
+ padding: 10px;
+ border:1px solid rgb(85, 71, 71);
+}
+.topo h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}
+.topo h5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9rem;
+    text-align: center;
+    color: white;
+}
+
+
+
+#imgPerfil {
+    border:1px solid #ffff;
+  display: block;
+  margin-left: auto;  
+  margin-right: auto;
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  box-shadow: 3px 3px 19px 5px rgba(0,0,0,0.4);
+}
+.botoestopo {
+    margin-top: 2rem;
+  display: block;
+  margin-left: auto;  
+  margin-right: auto;
+  width: 12.5rem;
+  height: auto;
+  padding: 0;
+}
+.botoestopo button{
+        width: 6rem;
+        border:1px solid #ffff;
+        border-radius:4px;
+        display:inline-block;
+        cursor:pointer;
+        font-family:Verdana;
+        font-weight:bold;
+        font-size:13px;
+        padding:6px 10px;
+        text-decoration:none;
+        color: seashell;
+        background-color: #800080;
+    
+
+}
+.botoestopo button:hover {
+    background-color: #ffff;
+    color:  #800080;
+    border:1px solid  #800080;
+}
+html {
+    height: 100%;
+  }
+  
+  body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    background-color: #464646;
+  }
+  
+  .corpo {
+    flex: 1;
+    background-color: #464646;
+    width: 90rem;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 3px 3px 19px 5px rgba(0,0,0,0.4);
+    padding-left: 2rem;
+
+  }
+  .carreira, .academico {
+      margin-top:2rem;
+      display: inline-block;
+      width: 45%;
+      height:auto;
+      padding: 0.5rem;
+     
+      
+  }
+  .habilidades{
+    width: 100%;  
+  }
+
+     
+
+  .corpo section> h4, h5 ,p {
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color: white;
+     
+  }
+  .corpo section > h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    position: relative;
+    font-size: 3rem;
+    text-align: center;
+  }
+  #imgTopico {
+      width: 6rem;
+      height: 6rem;
+      background-color:#8f778f13;
+      border-radius: 60%;
+      margin-left: auto;
+      margin-right: auto;
+     
+  }
+  .habilidades{
+      padding: 5rem;
+  }
+  .habilidades h4{
+      display: inline-block;
+      margin: 2rem;
+
+  }
+  #imgHabilidades{
+      width: 6rem;
+      height: 6rem;
+      margin-left: 2rem;
+      margin-right: auto;
+      background-color:white;
+      border-radius: 10%;
+  }
+  
+
+  .rodape{
+    width: auto;
+    height: 2rem;
+    background-color: #800080;
+    opacity: 0.8;
+    box-shadow: 3px 3px 19px 5px rgba(0,0,0,0.4);
+    padding: 10px;
+    border:1px solid rgb(85, 71, 71);
+  }
 /* Adicionando media query para estilos específicos em telas menores */
 @media only screen and (max-width: 768px) {
   .corpo {
