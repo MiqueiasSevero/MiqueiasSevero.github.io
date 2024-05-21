@@ -1,57 +1,34 @@
-:root {
-  --primary-color: #800080;
-  --secondary-color: #464646;
-  --text-color: white;
-  --box-shadow: 3px 3px 19px 5px rgba(0, 0, 0, 0.4);
-}
+/* Adicionando media query para estilos específicos em telas menores */
+@media only screen and (max-width: 768px) {
+  .corpo {
+    width: 90%;
+    padding: 1rem;
+  }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+  .carreira, .academico {
+    width: 100%;
+    margin-top: 1rem;
+  }
 
-body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  line-height: 1.6;
-  color: var(--text-color);
-}
+  .habilidades {
+    padding: 2rem;
+  }
 
-.topo {
-  width: 100%;
-  background-color: var(--primary-color);
-  opacity: 0.8;
-  box-shadow: var(--box-shadow);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 1rem;
-}
+  .botoestopo {
+    width: 100%;
+  }
 
-#imgPerfil {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  box-shadow: var(--box-shadow);
-  margin-bottom: 1rem;
-}
+  #imgPerfil {
+    height: 4rem;
+    width: 4rem;
+  }
 
-.topo h1 {
-  font-size: 2rem;
-  text-align: center;
-}
+  #imgTopico {
+    width: 4rem;
+    height: 4rem;
+  }
 
-.topo h5 {
-  font-size: 1rem;
-  text-align: center;
-}
-
-.botoestopo {
-  display: flex;
-  justify-content: center;
-  margin-top: 1rem;
-}
-
-.botoestopo button {
-  width: 6rem;
+  .habilidades h4 {
+    margin: 1rem;
+  }
 }
